@@ -1,6 +1,6 @@
 This is first arg $1 and this second arg $2
 
-if [ $1 == grass ]
+if [  $1 == grass  ]
 then
 git add $1
 git commit -m "$2"
