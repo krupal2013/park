@@ -4,7 +4,8 @@ if [ $1 == grass ]
 then
 git add $1
 git commit -m "$2"
-git push
+git remote add mygithub git@krupalgithub:krupal2013/park.git
+git push mygithub
 
 else
  	echo error
